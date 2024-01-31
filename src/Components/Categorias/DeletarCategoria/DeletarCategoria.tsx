@@ -31,10 +31,10 @@ function DeletarCategoria() {
         try {
             await deletar(`/categorias/${id}`)
 
-            alert('Tema apagado com sucesso')
+            alert('Categoria apagado com sucesso')
 
         } catch (error) {
-            alert('Erro ao apagar o Tema')
+            alert('Erro ao apagar a categoria')
         }
 
         retornar()
